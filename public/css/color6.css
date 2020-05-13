@@ -1,0 +1,489 @@
+/* ==========================================================================================
+  Theme Name: Bizz
+  Author: VS_THEMES
+  Support: visakhinkollam@gmail.com
+  Description: Bizz - Business Consulting and Agency HTML Template
+  Version: 1.0
+========================================================================================== */
+
+
+/*-------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1. Color black 
+    2. Color light white
+    3. Color blue 
+    4. Color green
+    5. bg black
+    6. bg blue
+    7. bg green
+    8. bg  light white
+    9. box shadow green
+    10. border blue
+    11. border green
+    12. border light white
+    13. border black
+    14. footer bg color
+
+-------------------------------------------------------*/
+
+
+/* ....................................
+1. Color black 
+.......................................*/
+
+body,
+ul,
+label,
+p,
+.black,
+.main-menu li .submenu li a,
+.price-text h1 span,
+.price-tabs .nav-link,
+.service-box.type-2:hover p,
+.header-style-3 .main-menu li a,
+.blog-by-detail li a,
+.header-style-3 .search-icon:hover,
+.faq-box .card-header,
+.tag-link,
+.social-icons.black li a,
+.categories li a,
+.btn-filter {
+    color: #282f41;
+}
+
+
+/* ....................................
+2. Color light white
+.......................................*/
+
+.quote-right-light {
+    color: #e9f1f9;
+}
+
+
+/* ....................................
+3. Color blue 
+.......................................*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.blue,
+.name-author .name,
+a:hover,
+.btn-round-border,
+.service-box.type-2:hover h4,
+.btn-border-blue,
+.mobile-menu-3 a.meanmenu-reveal,
+.week-count h1 sup,
+.experience li span {
+    color: #161B33;
+}
+
+
+/* ....................................
+4. Color green
+.......................................*/
+
+a,
+button,
+.green,
+.line-head,
+.count-box h3,
+.feature-num span,
+.plus-btn:hover,
+.price-text h1,
+.input-white:hover + i,
+.input-white:focus + i,
+.each-blog:hover .blog-text h6 a,
+.links-list a:hover,
+.input-search + i,
+.scroll-btn:hover,
+.btn-square-border,
+.social-icons.boxed-social li a:hover,
+.blog-by-detail li a:hover,
+.check-list-2 li:before,
+.faq-box .card .card-header::after,
+.faq-box .card-header:hover h5,
+.social-icons.round-border li a,
+.other-dervices:hover .icon-text h6,
+.social-icons.black li a:hover i,
+.categories li a:hover,
+.blog-grid:hover .blog-grid-text h5 a,
+.btn-filter.active,
+.btn-filter:hover,
+.search-not-found .input-white + i,
+.week-count h1,
+.case-quote a,
+.sub-2:after {
+    color: #666abb;
+}
+
+
+/* ....................................
+5. bg black
+.......................................*/
+
+.bg-black,
+.silder-img[data-overlay]::before,
+.slider-control.type-3 .dots-slider .owl-dot,
+.team-detail-3[data-overlay]::before,
+.inner-banner[data-overlay]::before {
+    background: #282f41;
+}
+
+
+/* ....................................
+6. bg blue
+.......................................*/
+
+.bg-blue,
+.slider-area[data-overlay]::before,
+.btn-round:hover,
+.btn-square:hover,
+.btn-round-border:hover,
+.service-box:hover .btn-round,
+.btn-blue,
+.team-each:hover .team-image.img-lined:before,
+.arrow-navigation .nav-slide:hover,
+.btn-round-blue,
+.testimonials[data-overlay]::before,
+.cta[data-overlay]::before,
+.btn-square-green:hover,
+.experience-cta[data-overlay]::before,
+.line-before:before,
+.transperant-head.fixed-nav,
+.service-3[data-overlay]::before,
+.btn-square-blue,
+.testimonial-3[data-overlay]::before,
+.mobile-menu-3 a.meanmenu-reveal span,
+.how-it-works[data-overlay]::before,
+.price-tag,
+.input-white + .input-group-append .btn:hover {
+    background: #161B33;
+}
+
+
+/*blue bg opacity classes*/
+
+.bg-blue-op-9 {
+    background: rgba(22, 27, 51, 0.9);
+}
+
+.bg-blue-op-8 {
+    background: rgba(22, 27, 51, 0.8);
+}
+
+.bg-blue-op-7 {
+    background: rgba(22, 27, 51, 0.7);
+}
+
+.bg-blue-op-6 {
+    background: rgba(22, 27, 51, 0.6);
+}
+
+.bg-blue-op-5 {
+    background: rgba(22, 27, 51, 0.5);
+}
+
+.bg-blue-op-4 {
+    background: rgba(22, 27, 51, 0.4);
+}
+
+.bg-blue-op-3 {
+    background: rgba(22, 27, 51, 0.3);
+}
+
+.bg-blue-op-2 {
+    background: rgba(22, 27, 51, 0.2);
+}
+
+.bg-blue-op-1 {
+    background: rgba(22, 27, 51, 0.1);
+}
+
+
+/* ....................................
+7. bg green
+.......................................*/
+
+.bg-green,
+.btn-round,
+.shop-icon .count,
+.main-menu li:after,
+.line-head .line,
+.blob.green,
+.btn-square,
+.slide-div .owl-dots .owl-dot.active,
+.callback-area[data-overlay]::before,
+.service-box:hover,
+.service-box:hover .service-icon-bg,
+.plus-btn,
+.arrow-navigation .nav-slide,
+.btn-round-blue:hover,
+.price-each.active,
+.price-tabs .nav-link.active,
+.testimonial-slider .arrow-btn:hover,
+.btn-square-green,
+.btn-square-white:hover,
+.each-blog:hover .blog-date,
+.contact-area:before,
+.social-links li a:hover,
+.links-list a:before,
+.scroll-btn,
+.dots-slider .owl-dot.active,
+.slide-social li a:hover,
+.team-green-head[data-overlay]::before,
+.career-box[data-overlay]::before,
+.mobile-menu-2.mean-container .meanmenu-reveal,
+.btn-square-border:hover,
+.slider-control.type-3 .dots-slider .owl-dot.active,
+.service-list-3:hover,
+.team-detail-3 h5:before,
+.each-team-3:hover .team-detail-3[data-overlay]::before,
+.btn-square-blue:hover,
+.btn-blue:hover,
+.price-each-2.active,
+.testimonial-3-slide .owl-dot.active span,
+.fancy-2:after,
+.right-box-head h4:after,
+.social-profile-box:hover,
+.block-quote-by:before,
+.tag-link:hover,
+.categories li a span,
+.slider-type-blog.owl-carousel .owl-nav button.owl-next,
+.slider-type-blog.owl-carousel .owl-nav button.owl-prev,
+.pagination-type1 ul li a:hover,
+.pagination-type1 ul li.active a,
+.portfolio-overlay:before,
+.line-right:after,
+.experience li:after {
+    background: #666abb;
+}
+
+
+/*green bg opacity classes*/
+
+.bg-green-op-9 {
+    background: rgba(102, 106, 187, 0.9)
+}
+
+.bg-green-op-8 {
+    background: rgba(102, 106, 187, 0.8)
+}
+
+.bg-green-op-7 {
+    background: rgba(102, 106, 187, 0.7)
+}
+
+.bg-green-op-6 {
+    background: rgba(102, 106, 187, 0.6)
+}
+
+.bg-green-op-5 {
+    background: rgba(102, 106, 187, 0.5)
+}
+
+.bg-green-op-4 {
+    background: rgba(102, 106, 187, 0.4)
+}
+
+.bg-green-op-3 {
+    background: rgba(102, 106, 187, 0.3)
+}
+
+.bg-green-op-2 {
+    background: rgba(102, 106, 187, 0.2)
+}
+
+.bg-green-op-1 {
+    background: rgba(102, 106, 187, 0.1)
+}
+
+
+/* ....................................
+8. bg  light white
+.......................................*/
+
+.bg-light-white,
+.hr-line,
+.service-icon-bg,
+.team-each:hover .team-info,
+.price-head .price-icon,
+.subscribe[data-overlay]::before,
+.scroll-btn:hover,
+.price-icon-2,
+.contact-form[data-overlay]::before,
+.not-found[data-overlay]::before,
+.coming-soon[data-overlay]::before,
+.job-list:after,
+.thanks[data-overlay]::before,
+.experience li:before,
+.service-icon-2 {
+    background: #e9f1f9;
+}
+
+
+/*important*/
+
+.light-white {
+    background: #e9f1f9 !important;
+}
+
+
+/* ....................................
+9. box shadow green
+.......................................*/
+
+.blob.green {
+    box-shadow: 0 0 0 0 rgb(102, 106, 187);
+}
+
+@keyframes pulse-green {
+    0% {
+        box-shadow: 0 0 0 0 rgba(102, 106, 187, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 30px rgba(102, 106, 187, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(102, 106, 187, 0);
+    }
+}
+
+@keyframes pulse-green-small {
+    0% {
+        box-shadow: 0 0 0 0 rgba(102, 106, 187, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(102, 106, 187, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(102, 106, 187, 0);
+    }
+}
+
+
+/* ....................................
+10. border blue
+.......................................*/
+
+.price-head .price-icon:before,
+.btn-border-blue,
+.blog-3-each:hover {
+    border-color: #161B33;
+}
+
+
+/* ....................................
+11. border green
+.......................................*/
+
+.client-image:before,
+.btn-square-white:hover,
+.input-search:focus,
+.service-box.type-2:hover.img-lined:before,
+.client-2-img .client-image:before,
+.icon-box-border,
+.each-logo:hover,
+.btn-square-border,
+.price-icon-2:before,
+.block-quote,
+.social-icons.round-border li a,
+.social-profile-box,
+.tag-link:hover,
+.green-border,
+.pagination-type1 ul li a,
+.btn-filter.active,
+.btn-filter:hover,
+.icon-box-icon,
+.partner:hover .partner-logo,
+.thank-icon {
+    border-color: #666abb;
+}
+
+
+/*border left color*/
+
+.client-count:after {
+    border-left-color: #666abb
+}
+
+
+/*border topcolor*/
+
+.partner:hover .partner-logo:after {
+    border-top-color: #666abb
+}
+
+
+/* ....................................
+12. border light white
+.......................................*/
+
+.each-blog,
+.input-search,
+.main-menu li .submenu li a,
+.feature-list-all li,
+.price-each.img-lined:before,
+.price-head h4,
+.service-box.type-2.img-lined:before,
+.clients-top-each,
+.top-clients,
+.service-list-3.img-lined:before,
+.counts-type-3,
+.faq-box.bodered-faq .card,
+.blog-by-info .list-inline-item:not(:last-child),
+.next-prev-button,
+.connent-lists > li,
+.each-blog-standared .blog-list-content,
+.partner-logo,
+.main-menu li .submenu .submenu li a {
+    border-color: #e9f1f9;
+}
+
+
+/*border topcolor*/
+
+.partner-logo:after {
+    border-top-color: #e9f1f9;
+}
+
+
+/* ....................................
+13. border black
+.......................................*/
+
+.blog-by-detail li a {
+    border-color: #282f41;
+}
+
+
+/* ....................................
+14. footer bg color
+.......................................*/
+
+.blackbg-1,
+.footer-area,
+.social-links li a {
+    background-color: #16202b;
+}
+
+.blackbg-2,
+.contact-area,
+.mean-container .mean-nav {
+    background-color: #1c2733;
+}
+
+.copyright {
+    background-color: #131c26;
+}
+
+
+/*end*/
